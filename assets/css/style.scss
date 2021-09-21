@@ -173,3 +173,13 @@ $visibilityDefault: hidden !default;
         }
     }
 }
+
+
+.navbar-brand {
+    @include fadeIn($duration: 2.5s, $count: 1, $delay: ($item/3)s, $function: ease, $fill: both);
+}
+
+.avatar-img {
+    @include fadeIn($duration: 3s, $count: 1, $delay: ($item/3)s, $function: ease, $fill: both);
+
+}
