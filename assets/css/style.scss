@@ -233,3 +233,11 @@ $visibilityDefault: hidden !default;
 .post-preview {
     @include fadeInUp($duration: 3s, $count: 1, $delay: 0s, $function: ease, $fill: both);
 }
+
+
+.gs-section-01 h3 { 
+    color:  #012168}
+
+.gs-section-01 p {
+    font-size: 16px;
+}

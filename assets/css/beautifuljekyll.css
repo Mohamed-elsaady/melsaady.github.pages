@@ -462,7 +462,7 @@ footer .footer-custom-content {
 }
 .post-preview .post-subtitle {
   margin: 0;
-  font-weight: 300;
+  font-weight: normal;
   margin-bottom: 0.625rem;
 }
 .post-preview .post-meta,
@@ -668,7 +668,7 @@ nav.top-nav-short-permanent ~ header > .intro-header.big-img {
   line-height: 1.1;
   display: block;
   font-family: 'carme', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-weight: 300;
+  font-weight: normal;
   margin: 0.625rem 0 0;
 }
 .intro-header .post-heading .post-subheading {
@@ -676,7 +676,7 @@ nav.top-nav-short-permanent ~ header > .intro-header.big-img {
 }
 .intro-header.big-img .page-heading .page-subheading,
 .intro-header.big-img .post-heading .post-subheading {
-  font-weight: 400;
+  font-weight: normal;
 }
 .intro-header.big-img .page-heading hr {
   box-shadow: 1px 1px 3px #000;
@@ -820,7 +820,7 @@ table tr:nth-child(2n) {
   background-color: #f8f8f8;
 }
 table tr th {
-  font-weight: bold;
+  font-weight: normal;
   border: 1px solid #cccccc;
   text-align: left;
   margin: 0;
@@ -1019,7 +1019,7 @@ pre {
   color: #555;
   font-size: 2rem;
   line-height: 2rem;
-  font-weight: bold;
+  font-weight: normal;
 }
 #nav-search-exit:hover {
   color: #000;
