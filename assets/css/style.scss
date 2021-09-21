@@ -18,9 +18,9 @@
 
 .navbar-nav {
 
-    @for $item from 1 through 6 {
+    @for $item from 1 through 4 {
         .nav-item:nth-child(#{$item}) {
-            @include fadeInRight($duration: 1.2s, $count: 1, $delay: math.div($item, 6) s, $function: ease, $fill: both);
+            @include fadeInRight($duration: 1.2s, $count: 1, $delay: ($item/4) s, $function: ease, $fill: both);
         }
     }
 }
