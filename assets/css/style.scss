@@ -119,7 +119,7 @@ $visibilityDefault: hidden !default;
 	@keyframes #{$animation-name} {
 		@content;
 	}
-
+}
 
 @include keyframes(fadeIn) {
 	0% {
@@ -166,10 +166,10 @@ $visibilityDefault: hidden !default;
 
 
 .navbar-nav {
-
+    top: 0;
     @for $item from 1 through 4 {
         .nav-item:nth-child(#{$item}) {
-            @include fadeInRight($duration: 1.2s, $count: 1, $delay: ($item/4) s, $function: ease, $fill: both);
+            @include fadeInRight($duration: 1.2s, $count: 1, $delay: ($item/4)s, $function: ease, $fill: both);
         }
     }
 }
