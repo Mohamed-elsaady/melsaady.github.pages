@@ -1,4 +1,5 @@
-
+---
+---
 
 
 $countDefault: 1 !default;
@@ -107,7 +108,7 @@ $visibilityDefault: hidden !default;
 	@keyframes #{$animation-name} {
 		@content;
 	}
-
+}
 
 @include keyframes(fadeIn) {
 	0% {
@@ -149,3 +150,7 @@ $visibilityDefault: hidden !default;
 	@include fill-mode($fill);
 	@include visibility($visibility);
 }
+
+
+
+
