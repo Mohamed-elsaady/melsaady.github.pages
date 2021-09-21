@@ -1,6 +1,8 @@
 ---
 ---
 
+@import "animations.scss";
+
 @font-face {
     font-family: 'carme';
     src: url('../fonts/carme-regular-webfont.woff2') format('woff2'),
@@ -11,3 +13,14 @@
 
 }
 
+
+
+
+.navbar-nav {
+
+    @for $item from 1 through 6 {
+        .nav-item:nth-child(#{$item}) {
+            @include fadeInRight($duration: 1.2s, $count: 1, $delay: math.div($item, 6) s, $function: ease, $fill: both);
+        }
+    }
+}
