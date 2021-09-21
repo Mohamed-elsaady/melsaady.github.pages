@@ -371,7 +371,7 @@ img {
 footer {
   padding: 1.875rem 0;
   border-top: 1px #EAEAEA solid;
-  margin-top: 3.125rem;
+  margin-top: 6.425rem;
   font-size: 0.875rem;
   background-color: {{ site.footer-col | default: "#EAEAEA" }};
   {% if site.footer-img %}
@@ -440,6 +440,7 @@ footer .footer-custom-content {
 
 .post-preview:last-child {
   border-bottom: 0;
+  margin-bottom: ;
 }
 
 .post-preview a {
@@ -457,6 +458,7 @@ footer .footer-custom-content {
 .post-preview .post-title {
   font-size: 1.875rem;
   margin-top: 0;
+  color: #012168;
 }
 .post-preview .post-subtitle {
   margin: 0;
@@ -643,6 +645,8 @@ nav.top-nav-short-permanent ~ header > .intro-header.big-img {
 }
 .intro-header .page-heading {
   text-align: center;
+  margin-top: 70px;
+  margin-bottom: 70px;
 }
 .intro-header.big-img .page-heading,
 .intro-header.big-img .post-heading {
