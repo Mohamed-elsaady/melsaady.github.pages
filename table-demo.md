@@ -22,8 +22,7 @@ gosling:
 ---
 
 
-
-![](/assets/img/ryan-v-ryan.jpeg?raw=true)  
+![](https://mohamed-elsaady.github.io/melsaady.github.pages/assets/img/ryan-v-ryan.jpeg?raw=true)  
 
 
 ## Lorem Ipsum
