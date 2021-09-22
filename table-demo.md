@@ -21,10 +21,12 @@ gosling:
   - not ryan reynolds
 ---
 
-<br/><br/>
+
+ <div class="heroImg"  markdown="1">
 
 ![](https://mohamed-elsaady.github.io/melsaady.github.pages/assets/img/ryan-v-ryan.jpeg?raw=true)  
 
+</div>
 
 ## Lorem Ipsum
 
